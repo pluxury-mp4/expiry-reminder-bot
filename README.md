@@ -19,6 +19,8 @@ java -jar target/expiry-reminder-bot-0.1.0.jar
 
 Open the bot's private chat and send `/help`. Run one instance for each token.
 
+On macOS, if an early JDK 17 build cannot find a checkout in a path with non-ASCII characters, run the build with `LC_ALL=en_US.UTF-8 mvn clean verify`.
+
 ## In Telegram
 
 | Command | What it does |
